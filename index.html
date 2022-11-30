@@ -1,0 +1,67 @@
+<html>
+<head>
+<!-- CSS only -->
+<link href=
+"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+	integrity=
+"sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	crossorigin="anonymous" rel="stylesheet">
+
+<!-- Html2Pdf -->
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.1/html2pdf.bundle.min.js"
+	integrity=
+"sha512vDKWohFHe2vkVWXHp3tKvIxxXg0pJxeid5eo+UjdjME3DBFBn2F8yWOE0XmiFcFbXxrEOR1JriWEno5Ckpn15A=="
+	crossorigin="anonymous">
+</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Greeting Card Generator</h2>
+<div class="top">
+
+<input type="button" class="btn btn-primary"
+		onclick="GeneratePdf();" value="GeneratePdf">
+	
+
+ <input id="reciever" placeholder="Name of reciever"></input>
+ <input type="date" id="date" placeholder="Date"></input>
+ <input id="sender" placeholder="Name of sender"></input>
+ <br>
+ <label>Reason:</label>
+ <select name="reason" id="reason">
+   <option value="Birthday">Birthday</option>
+   <option value="Death">Death</option>
+   <option value="Graduation">Graduation</option>
+   <option value="Christmas">Christmas</option>
+ </select>
+ <br>
+ <input id="submit" type="submit" />
+ <input id="reset" type="reset" />
+</div>
+<div id="form-print" enctype="text/plain" class="border"> 
+<div id="wrapper">
+ <h1 id="message">Message</h1>
+ <p id="icon">icon</p>
+ <p id="dateOutput">date</p>
+ <p id="recieverOutput">Dear, Reciever</p>
+ <p id="content">content</p>
+ <p id="senderOutput">Love, Sender</p>
+</div>
+</div>
+
+<script src="script.js"></script>
+<script src=
+"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity=
+"sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous">
+	</script>
+</body>
+</html>
+
+
+
+
+

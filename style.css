@@ -1,0 +1,141 @@
+body {
+background: #eee;
+
+}
+
+h2{
+color: #111;
+text-align: center;
+}
+
+#wrapper {
+ background: linear-gradient(violet,rgb(106, 90, 205)) ;
+ max-width: 300px;
+ text-align: center;
+ font-family: 'Sofia';
+ padding: 30px;
+ margin: 5px auto;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ border-radius: 5px;
+ background-color: rgba(173, 216, 230, 0.8);
+ border: 10px solid violet;
+ border-image: repeating-linear-gradient(
+ 45deg,
+ violet,
+ rgb(106, 90, 205) 20px,
+ white 20px,
+ white 40px
+ )
+ 20;
+}
+
+#reciever{
+margin: 5px;
+outline: none;
+height: 35px;
+background: #eee;
+border: 2px solid lightgray;
+border-radius: 5px;
+font-size: 20px;
+}
+
+#date{
+margin: 5px;
+outline: none;
+height: 35px;
+background: #eee;
+border: 2px solid lightgray;
+border-radius: 5px;
+font-size: 20px;
+}
+
+#sender{
+margin: 5px;
+outline: none;
+height: 35px;
+background: #eee;
+border: 2px solid lightgray;
+border-radius: 5px;
+font-size: 20px;
+}
+
+
+#reason{
+margin: 5px;
+background: #eee;
+border: 2px solid lightgray;
+border-radius: 5px;
+font-size: 20px;
+outline:none;
+}
+
+label{
+text-align: center;
+padding: 5px;
+color: #111;
+font-size: 20px;
+}
+
+#submit,#reset{
+display: inline;
+padding: 10px;
+margin-left: 4px;
+font-size: 18px;
+}
+
+#submit{
+background: rgba(243, 0, 75, 1);
+color: #fff;
+border: none;
+border-radius: 5px;
+}
+
+#reset{
+background: rgb(10, 251, 130);
+color: #fff;
+border: none;
+border-radius: 5px;
+}
+
+
+#emoji {
+ font-size: 40px;
+}
+
+
+.txt{
+font-family: 'Sofia';
+color: #fff;
+}
+
+.txt2{
+color: #fff;
+}
+
+.cake{
+height: 100px;
+width: 100px;
+background:  rgb(106, 90, 205);
+padding: 20px;
+border-radius: 5%;
+
+}
+
+
+
+#dateOutput{
+color: #fff;
+font-weight: bold;
+}
+
+#recieverOutput{
+color: lightblue;
+font-size: 20px;
+font-weight: bold;
+}
+
+#senderOutput{
+color: lightblue;
+font-size: 20px;
+font-weight: bold;
+}
