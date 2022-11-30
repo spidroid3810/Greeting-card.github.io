@@ -108,11 +108,27 @@ font-family: 'Sofia';
 color: #fff;
 }
 
-.txt2{
-color: #fff;
+.cake{
+height: 100px;
+width: 100px;
+background:  rgb(106, 90, 205);
+padding: 20px;
+border-radius: 5%;
+
 }
 
-.cake{
+
+.grad{
+height: 100px;
+width: 100px;
+background:  rgb(106, 90, 205);
+padding: 20px;
+border-radius: 5%;
+
+}
+
+
+.tree{
 height: 100px;
 width: 100px;
 background:  rgb(106, 90, 205);

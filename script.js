@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
    switch (reason.value) {
      case "Birthday":
-       message.innerHTML = "<b style='color: rgb(106, 90, 205);'>Happy</b> <b style='color:lightblue;'>Birthday!</b> <b class='txt2'>To You</b>";
+       message.innerHTML = "<b style='color: rgb(106, 90, 205);'>Happy</b> <b style='color:lightblue;'>Birthday!</b>";
        icon.innerHTML = "<img class='cake' src='cake.png'>";
        content.innerHTML = "<h3 class='txt'>“Hope all your birthday wishes come true!”</h3>";
        break;
@@ -37,12 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
        break;
      case "Graduation":
        message.innerText = "Congrats Grad!";
-       icon.innerText = "🎓";
+       icon.innerHTML = "<img class='grad' src='graduation.png'>";
        content.innerText = "Go get a job you lazy  millenial!";
        break;
      case "Christmas":
        message.innerText = "Happy Holidays!";
-       icon.innerText = "🎄";
+       icon.innerHTML = "<img class='tree' src='christmas-tree.png'>";
        content.innerText = "Happy Birthday Jesus! Yay Consumerism!";
        break;
    }
