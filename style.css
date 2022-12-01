@@ -19,14 +19,7 @@ text-align: center;
  border-radius: 5px;
  background-color: rgba(173, 216, 230, 0.8);
  border: 10px solid violet;
- border-image: repeating-linear-gradient(
- 45deg,
- violet,
- rgb(106, 90, 205) 20px,
- white 20px,
- white 40px
- )
- 20;
+ border-image: repeating-linear-gradient(45deg,violet, rgb(106, 90, 205) 20px,white 20px,white 40px)20;
 }
 
 #reciever{
