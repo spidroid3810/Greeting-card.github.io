@@ -23,12 +23,8 @@
 <h2>Greeting Card Generator</h2>
 <div class="top">
 
-<input type="button" class="btn btn-primary"
-		onclick="GeneratePdf();" value="GeneratePdf">
-	
-
  <input id="reciever" placeholder="Name of reciever"></input>
- <input type="date" id="date" placeholder="Date"></input>
+ <input placeholder="Date" type="date" id="date">
  <input id="sender" placeholder="Name of sender"></input>
  <br>
  <label>Reason:</label>
@@ -41,6 +37,7 @@
  <br>
  <input id="submit" type="submit" />
  <input id="reset" type="reset" />
+ <input type="button" class="btn btn-primary" onclick="GeneratePdf();" value="GeneratePdf">
 </div>
 <div id="form-print" enctype="application/x-www-form-urlencoded" class="border"> 
 <div id="wrapper">
@@ -62,8 +59,6 @@
 	</script>
 </body>
 </html>
-
-
 
 
 

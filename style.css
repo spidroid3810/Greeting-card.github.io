@@ -6,21 +6,22 @@ background: #eee;
 h2{
 color: #111;
 text-align: center;
+font-weight:bold;
 }
 
 #wrapper {
- background: linear-gradient(violet,rgb(106, 90, 205)) ;
- max-width: 300px;
+  max-width: 300px;
+ height: 500px;
  text-align: center;
  font-family: 'Sofia';
  padding: 30px;
  margin: 5px auto;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  border-radius: 5px;
- background-color: rgba(173, 216, 230, 0.8);
- border: 10px solid violet;
- border-image: repeating-linear-gradient(45deg,violet, rgb(106, 90, 205) 20px,white 20px,white 40px)20;
-}
+opacity: 0.8;
+background-image:  radial-gradient(red 0.9px, transparent 0.5px), radial-gradient(#444cf7 0.9px, #e5e5f7 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;}
 
 #reciever{
 margin: 5px;
@@ -69,7 +70,7 @@ color: #111;
 font-size: 20px;
 }
 
-#submit,#reset{
+#submit,#reset,.btn{
 display: inline;
 padding: 10px;
 margin-left: 4px;
@@ -98,13 +99,12 @@ border-radius: 5px;
 
 .txt{
 font-family: 'Sofia';
-color: #fff;
+color: #00A36C;
 }
 
 .cake{
-height: 100px;
-width: 100px;
-background:  rgb(106, 90, 205);
+height: 200px;
+width: 200px;
 padding: 20px;
 border-radius: 5%;
 
@@ -112,9 +112,8 @@ border-radius: 5%;
 
 
 .grad{
-height: 100px;
-width: 100px;
-background:  rgb(106, 90, 205);
+height: 200px;
+width: 200px;
 padding: 20px;
 border-radius: 5%;
 
@@ -122,9 +121,8 @@ border-radius: 5%;
 
 
 .tree{
-height: 100px;
-width: 100px;
-background:  rgb(106, 90, 205);
+height: 200px;
+width: 200px;
 padding: 20px;
 border-radius: 5%;
 
@@ -133,18 +131,19 @@ border-radius: 5%;
 
 
 #dateOutput{
-color: #fff;
+color:rgb(106, 90, 205);
 font-weight: bold;
 }
 
 #recieverOutput{
-color: lightblue;
+color: #fea735;
 font-size: 20px;
 font-weight: bold;
 }
 
 #senderOutput{
-color: lightblue;
+color: #fea735;
 font-size: 20px;
 font-weight: bold;
 }
+

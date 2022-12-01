@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
    switch (reason.value) {
      case "Birthday":
-       message.innerHTML = "<b style='color: rgb(106, 90, 205);'>Happy</b> <b style='color:lightblue;'>Birthday!</b>";
+       message.innerHTML = "<b style='color: rgb(106, 90, 205);'>Happy</b> <b style='color:crimson;'>Birthday!</b>";
        icon.innerHTML = "<img class='cake' src='cake.png'>";
        content.innerHTML = "<h3 class='txt'>“Hope all your birthday wishes come true!”</h3>";
        break;
@@ -50,10 +50,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
 // Function to GeneratePdf
 	function GeneratePdf() {
 		var element = document.getElementById('form-print');
 		html2pdf(element);
 	}
-
-
