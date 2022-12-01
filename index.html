@@ -43,7 +43,7 @@
  <input type="button" class="btn btn-primary" onclick="GeneratePdf();" value="GeneratePdf">
  <a id="download" >Download</a>
 </div>
-<div id="form-print" enctype="application/x-www-form-urlencoded" class="border"> 
+<div id="form-print" enctype="text/plain"> 
 <div id="wrapper">
  <h1 id="message">Message</h1>
  <p id="icon">icon</p>
@@ -65,7 +65,7 @@
    html2canvas(element,{
    onrendered: function(canvas){
    var imageData = canvas.toDataURL("image/jpg");
-   var newData = imageData.replace(/^data:image\/jpg/,"data:application/octet-stream");
+   var newData = imageData.replace(/^data:image\/jpg/,"data:text/plain");
    $("#download").attr("download","image.jpg").attr("href",newData);
     }
    });
