@@ -25,23 +25,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
    switch (reason.value) {
      case "Birthday":
-       message.innerHTML = "<b style='color: rgb(106, 90, 205);'>Happy</b> <b style='color:crimson;'>Birthday!</b>";
+       message.innerHTML = "<b style='color: rgb(106, 90, 205);'>✨Happy</b> <b style='color:crimson;'>Birthday!✨</b>";
        icon.innerHTML = "<img class='cake' src='cake.png'>";
        content.innerHTML = "<h3 class='txt'>“Hope all your birthday wishes come true!”</h3>";
        break;
      case "Death":
-       message.innerText = "Sorry for your Loss";
-       icon.innerText = "👻💀";
+       message.innerHTML = "💐<b style='color: limegreen;'>Sorry</b> <b style='color: #fff;'>for</b> <b style='color: limegreen;'>your</b> <b style='color: #fff;'>Loss</b>💐";
+       icon.innerHTML = "<img class='fune' src='wreath.png'>";
        content.innerText =
          "I see dead people. I dont have special powers, just stating the obvious.";
        break;
      case "Graduation":
-       message.innerText = "Congrats Grad!";
+       message.innerHTML = "🎓Congrats <b style='color: #FFC300;'>Grad!🎓</b>";
        icon.innerHTML = "<img class='grad' src='graduation.png'>";
        content.innerText = "Go get a job you lazy  millenial!";
        break;
      case "Christmas":
-       message.innerText = "Happy Holidays!";
+       message.innerHTML = "❄<b style='color: crimson;'>️Merry Christmas!</b>❄️";
        icon.innerHTML = "<img class='tree' src='christmas-tree.png'>";
        content.innerText = "Happy Birthday Jesus! Yay Consumerism!";
        break;
@@ -50,4 +50,24 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+function bor1() {
+ document.getElementById("wrapper").style.borderImage = "url(border.png) 30 round";  /* Code for Safari 5 */
+  document.getElementById("wrapper").style.backgroundColor = "lightyellow";  /* Code for Safari 5 */
+}
 
+function bor2() {
+ document.getElementById("wrapper").style.borderImage = "url(chris.png) 100 round";  /* Code for Safari 5 */
+  document.getElementById("wrapper").style.backgroundColor = "#ECFFDC";  /* Code for Safari 5 */
+  }
+
+function bor3() {
+ document.getElementById("wrapper").style.borderImage = "url(flower.png) 100 round";  /* Code for Safari 5 */
+  document.getElementById("wrapper").style.backgroundColor = "bisque";  /* Code for Safari 5 */
+  
+  }
+
+function bor4() {
+ document.getElementById("wrapper").style.borderImage = "url(grad.png) 50 round";  /* Code for Safari 5 */
+  document.getElementById("wrapper").style.backgroundColor = "#F0FFFF";  /* Code for Safari 5 */
+  
+  }

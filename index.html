@@ -26,9 +26,13 @@
 <h2>Greeting Card Generator</h2>
 <div class="top">
 
- <input id="reciever" placeholder="Name of reciever"></input>
- <input placeholder="Date" type="date" id="date">
- <input id="sender" placeholder="Name of sender"></input>
+ <label>Name of reciever</label>
+ <input id="reciever"></input>
+ <label>Name of sender</label>
+ <input id="sender"></input>
+ <br>
+ <label>Date</label>
+ <input type="date" id="date">
  <br>
  <label>Reason:</label>
  <select name="reason" id="reason">
@@ -38,6 +42,12 @@
    <option value="Christmas">Christmas</option>
  </select>
  <br>
+ <label>Change Border</label>
+ <button class="btns" onclick="bor1()">🎂</button>
+ <button class="btns" onclick="bor2()">🎄</button>
+ <button class="btns" onclick="bor3()">💐</button>
+ <button class="btns" onclick="bor4()">🎓</button>
+ 
  <input id="submit" type="submit" />
  <input id="reset" type="reset" />
  <a class="btn btn-primary" id="download" >Download</a>
@@ -68,6 +78,7 @@
    $("#download").attr("download","image.jpg").attr("href",newData);
     },
     useCORS: true
+    
    });
   });
 });
@@ -83,4 +94,3 @@
 	</script>
 </body>
 </html>
-
