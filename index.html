@@ -16,10 +16,13 @@
 "sha512vDKWohFHe2vkVWXHp3tKvIxxXg0pJxeid5eo+UjdjME3DBFBn2F8yWOE0XmiFcFbXxrEOR1JriWEno5Ckpn15A=="
 	crossorigin="anonymous">
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="autoClick();">
 <h2>Greeting Card Generator</h2>
 <div class="top">
 
@@ -38,6 +41,7 @@
  <input id="submit" type="submit" />
  <input id="reset" type="reset" />
  <input type="button" class="btn btn-primary" onclick="GeneratePdf();" value="GeneratePdf">
+ <a id="download" >Download</a>
 </div>
 <div id="form-print" enctype="application/x-www-form-urlencoded" class="border"> 
 <div id="wrapper">
@@ -50,6 +54,26 @@
 </div>
 </div>
 
+
+<script type="text/javascript">
+ function autoClick(){
+ $("#download").click();
+ }
+ $(document).ready(function(){ 
+  var element = $("#form-print");  
+  $("#download").on('click',function(){
+   html2canvas(element,{
+   onrendered: function(canvas){
+   var imageData = canvas.toDataURL("image/jpg");
+   var newData = imageData.replace(/^data:image\/jpg/,"data:application/octet-stream");
+   $("#download").attr("download","image.jpg").attr("href",newData);
+    }
+   });
+  });
+});
+
+
+</script>
 <script src="script.js"></script>
 <script src=
 "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -59,6 +83,5 @@
 	</script>
 </body>
 </html>
-
 
 
