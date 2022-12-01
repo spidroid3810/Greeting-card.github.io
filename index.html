@@ -67,7 +67,8 @@
    var imageData = canvas.toDataURL("image/jpg");
    var newData = imageData.replace(/^data:image\/jpg/,"data:text/plain");
    $("#download").attr("download","image.jpg").attr("href",newData);
-    }
+    },
+    useCORS: true
    });
   });
 });
@@ -83,5 +84,4 @@
 	</script>
 </body>
 </html>
-
 
