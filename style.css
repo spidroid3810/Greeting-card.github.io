@@ -14,7 +14,7 @@ font-weight:bold;
 
 #wrapper {
  width: 330px;
- height: 550px;
+ height: 515px;
  text-align: center;
  font-family: 'Sofia';
  padding: 30px;
@@ -109,10 +109,7 @@ border-radius: 5px;
 }
 
 
-.txt{
-font-family: 'Sofia';
-color: #00A36C;
-}
+
 
 .cake{
 height: 200px;

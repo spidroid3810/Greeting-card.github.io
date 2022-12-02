@@ -27,11 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
      case "Birthday":
        message.innerHTML = "<b style='color: rgb(106, 90, 205);'>✨Happy</b> <b style='color:crimson;'>Birthday!✨</b>";
        icon.innerHTML = "<img class='cake' src='cake.png'>";
-       content.innerHTML = "<h3 class='txt'>“Hope all your birthday wishes come true!”</h3>";
+       content.innerHTML = "“Hope all your birthday wishes come true & have a great day filled with special moments!”";
        document.getElementById("wrapper").style.backgroundColor = "lightyellow";
        document.getElementById("recieverOutput").style.color = "#ffea00"; 
        document.getElementById("senderOutput").style.color = "#ffea00"; 
        document.getElementById("dateOutput").style.color = "deepskyblue"; 
+       document.getElementById("content").style.color = "#00A36C"; 
        document.getElementById("wrapper").style.border = "5px dashed #fff000";
        break;
      case "Death":
