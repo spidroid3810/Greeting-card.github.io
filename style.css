@@ -3,7 +3,7 @@ background: #eee;
 }
 
 h1{
-font-size:25px;
+font-size:24px;
 }
 
 h2{
@@ -21,10 +21,7 @@ font-weight:bold;
  margin: 5px auto;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  border-radius: 5px;
-background: lightyellow;
-border: 15px solid transparent;
-  padding: 15px;
-  border-image: url(border.png) 30 round;
+ background: lightyellow;
 }
 
 #reciever{
@@ -144,18 +141,18 @@ padding: 20px;
 }
 
 #dateOutput{
-color:rgb(106, 90, 205);
+color:#111;
 font-weight: bold;
 }
 
 #recieverOutput{
-color: deepskyblue;
+color:#111;
 font-size: 20px;
 font-weight: bold;
 }
 
 #senderOutput{
-color: deepskyblue;
+color:#111;
 font-size: 20px;
 font-weight: bold;
 }

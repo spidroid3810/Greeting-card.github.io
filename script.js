@@ -28,22 +28,49 @@ document.addEventListener("DOMContentLoaded", () => {
        message.innerHTML = "<b style='color: rgb(106, 90, 205);'>✨Happy</b> <b style='color:crimson;'>Birthday!✨</b>";
        icon.innerHTML = "<img class='cake' src='cake.png'>";
        content.innerHTML = "<h3 class='txt'>“Hope all your birthday wishes come true!”</h3>";
+       document.getElementById("wrapper").style.backgroundColor = "lightyellow";
+       document.getElementById("recieverOutput").style.color = "#ffea00"; 
+       document.getElementById("senderOutput").style.color = "#ffea00"; 
+       document.getElementById("dateOutput").style.color = "deepskyblue"; 
+       document.getElementById("wrapper").style.border = "5px dashed #fff000";
        break;
      case "Death":
-       message.innerHTML = "💐<b style='color: limegreen;'>Sorry</b> <b style='color: #fff;'>for</b> <b style='color: limegreen;'>your</b> <b style='color: #fff;'>Loss</b>💐";
+       message.innerHTML = "💐<b style='color: limegreen;'>Sorry</b> <b style='color: #f9f9f9;'>for</b> <b style='color: limegreen;'>your</b> <b style='color: #f9f9f9;'>Loss</b>💐";
        icon.innerHTML = "<img class='fune' src='wreath.png'>";
        content.innerText =
          "I see dead people. I dont have special powers, just stating the obvious.";
+       document.getElementById("wrapper").style.backgroundColor = "bisque"; 
+       document.getElementById("recieverOutput").style.color = "#262626"; 
+       document.getElementById("senderOutput").style.color = "#262626"; 
+       document.getElementById("dateOutput").style.color = "#ffffff"; 
+       document.getElementById("content").style.color = "#ffffff"; 
+       document.getElementById("wrapper").style.border = "5px double limegreen"; 
+       
+       
        break;
      case "Graduation":
-       message.innerHTML = "🎓Congrats <b style='color: #FFC300;'>Grad!🎓</b>";
+       message.innerHTML = "🎓<b style='color: #fff;'>Congrats</b> <b style='color: #FFC300;'>Grad!🎓</b>";
        icon.innerHTML = "<img class='grad' src='graduation.png'>";
        content.innerText = "Go get a job you lazy  millenial!";
+       document.getElementById("wrapper").style.backgroundColor = "rgb(106, 90, 205)";
+       document.getElementById("recieverOutput").style.color = "navy"; 
+       document.getElementById("senderOutput").style.color = "navy"; 
+       document.getElementById("content").style.color = "#ffffff"; 
+       document.getElementById("dateOutput").style.color = "#ffffff"; 
+       document.getElementById("wrapper").style.border = "5px double #ffc300"; 
+       
        break;
      case "Christmas":
-       message.innerHTML = "❄<b style='color: crimson;'>️Merry Christmas!</b>❄️";
+       message.innerHTML = "❄<b style='color:#fff;'>️Merry Christmas!</b>❄️";
        icon.innerHTML = "<img class='tree' src='christmas-tree.png'>";
        content.innerText = "Happy Birthday Jesus! Yay Consumerism!";
+       document.getElementById("wrapper").style.backgroundColor = "crimson";  
+       document.getElementById("recieverOutput").style.color = "#ffea50"; 
+       document.getElementById("senderOutput").style.color = "#ffea50"; 
+       document.getElementById("dateOutput").style.color = "#ffffff"; 
+       document.getElementById("content").style.color = "#ffffff"; 
+       document.getElementById("wrapper").style.border = "5px double #ffea50"; 
+       
        break;
    }
  });
@@ -51,23 +78,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function bor1() {
- document.getElementById("wrapper").style.borderImage = "url(border.png) 30 round";  /* Code for Safari 5 */
-  document.getElementById("wrapper").style.backgroundColor = "lightyellow";  /* Code for Safari 5 */
-}
+    document.getElementById("recieverOutput").style.color = ""; 
+    }
 
 function bor2() {
- document.getElementById("wrapper").style.borderImage = "url(chris.png) 100 round";  /* Code for Safari 5 */
-  document.getElementById("wrapper").style.backgroundColor = "#ECFFDC";  /* Code for Safari 5 */
-  }
+  /* Code for Safari 5 */
+       }
 
 function bor3() {
- document.getElementById("wrapper").style.borderImage = "url(flower.png) 100 round";  /* Code for Safari 5 */
-  document.getElementById("wrapper").style.backgroundColor = "bisque";  /* Code for Safari 5 */
-  
+    /* Code for Safari 5 */
+      document.getElementById("recieverOutput").style.color = ""; 
   }
 
 function bor4() {
- document.getElementById("wrapper").style.borderImage = "url(grad.png) 50 round";  /* Code for Safari 5 */
-  document.getElementById("wrapper").style.backgroundColor = "#F0FFFF";  /* Code for Safari 5 */
+ /* Code for Safari 5 */
   
   }
