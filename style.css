@@ -157,13 +157,3 @@ font-size: 20px;
 font-weight: bold;
 }
 
-.btns{
-border: 2px solid lightgray;
-outline: none;
-}
-
-
-.btns:hover{
-border: 2px solid #111;
-outline: none;
-}
