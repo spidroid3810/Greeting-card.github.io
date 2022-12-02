@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
      case "Graduation":
        message.innerHTML = "🎓<b style='color: #fff;'>Congrats</b> <b style='color: #FFC300;'>Grad!🎓</b>";
        icon.innerHTML = "<img class='grad' src='graduation.png'>";
-       content.innerText = "Go get a job you lazy  millenial!";
+       content.innerText = "May your graduation be the beginning of many more wonderful achievements in your life!";
        document.getElementById("wrapper").style.backgroundColor = "rgb(106, 90, 205)";
        document.getElementById("recieverOutput").style.color = "navy"; 
        document.getElementById("senderOutput").style.color = "navy"; 
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
      case "Christmas":
        message.innerHTML = "❄<b style='color:#fff;'>️Merry Christmas!</b>❄️";
        icon.innerHTML = "<img class='tree' src='christmas-tree.png'>";
-       content.innerText = "Happy Birthday Jesus! Yay Consumerism!";
+       content.innerText = "May the Christmas Season bring only happiness and joy to you and your family!";
        document.getElementById("wrapper").style.backgroundColor = "crimson";  
        document.getElementById("recieverOutput").style.color = "#ffea50"; 
        document.getElementById("senderOutput").style.color = "#ffea50"; 
