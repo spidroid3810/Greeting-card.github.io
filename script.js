@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
        document.getElementById("wrapper").style.border = "5px dashed #fff000";
        break;
      case "Death":
-       message.innerHTML = "💐<b style='color: limegreen;'>Sorry</b> <b style='color: #f9f9f9;'>for</b> <b style='color: limegreen;'>your</b> <b style='color: #f9f9f9;'>Loss</b>💐";
+       message.innerHTML = "🌼<b style='color: limegreen;'>Sorry</b> <b style='color: #f9f9f9;'>for</b> <b style='color: limegreen;'>your</b> <b style='color: #f9f9f9;'>Loss</b>🌼";
        icon.innerHTML = "<img class='fune' src='wreath.png'>";
        content.innerText =
          "I see dead people. I dont have special powers, just stating the obvious.";
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
        
        break;
      case "Graduation":
-       message.innerHTML = "🎓<b style='color: #fff;'>Congrats</b> <b style='color: #FFC300;'>Grad!🎓</b>";
+       message.innerHTML = "🎓<b style='color: #fff;'>Congrats</b> <b style='color: #FFC300;'>Grad!</b>🎓";
        icon.innerHTML = "<img class='grad' src='graduation.png'>";
        content.innerText = "May your graduation be the beginning of many more wonderful achievements in your life!";
        document.getElementById("wrapper").style.backgroundColor = "rgb(106, 90, 205)";
