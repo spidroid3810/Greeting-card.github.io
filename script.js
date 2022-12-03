@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
        document.getElementById("dateOutput").style.color = "deepskyblue"; 
        document.getElementById("content").style.color = "#00A36C"; 
        document.getElementById("wrapper").style.border = "5px dashed #fff000";
+       
        break;
      case "Death":
        message.innerHTML = "🌼<b style='color: limegreen;'>Sorry</b> <b style='color: #f9f9f9;'>for</b> <b style='color: limegreen;'>your</b> <b style='color: #f9f9f9;'>Loss</b>🌼";
@@ -46,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
        document.getElementById("dateOutput").style.color = "#ffffff"; 
        document.getElementById("content").style.color = "#ffffff"; 
        document.getElementById("wrapper").style.border = "5px double limegreen"; 
-       
        
        break;
      case "Graduation":
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
        
        break;
      case "Christmas":
-       message.innerHTML = "❄<b style='color:#fff;'>️Merry Christmas!</b>❄️";
+       message.innerHTML = "❄<b style='color: #fff;'>Merry</b> <b style='color: #fff;'>Christmas!</b>❄️";
        icon.innerHTML = "<img class='tree' src='christmas-tree.png'>";
        content.innerText = "May the Christmas Season bring only happiness and joy to you and your family!";
        document.getElementById("wrapper").style.backgroundColor = "crimson";  
