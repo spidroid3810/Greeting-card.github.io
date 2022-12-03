@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
        document.getElementById("wrapper").style.border = "5px double #ffc300"; 
        
        break;
-     case "Christmas":
+       case "Christmas":
        message.innerHTML = "❄<b style='color: #fff;'>Merry</b> <b style='color: #fff;'>Christmas!</b>❄️";
        icon.innerHTML = "<img class='tree' src='christmas-tree.png'>";
        content.innerText = "May the Christmas Season bring only happiness and joy to you and your family!";
@@ -92,6 +92,18 @@ document.addEventListener("DOMContentLoaded", () => {
        document.getElementById("wrapper").style.backgroundColor = "orangered";  
        document.getElementById("recieverOutput").style.color = "#ffea50"; 
        document.getElementById("senderOutput").style.color = "#ffea50"; 
+       document.getElementById("dateOutput").style.color = "#ffffff"; 
+       document.getElementById("content").style.color = "#ffffff"; 
+       document.getElementById("wrapper").style.border = "5px double #ffea50"; 
+       break;
+       
+       case "Halloween":
+       message.innerHTML = "🕸️<b style='color: #fff;'>Happy</b> <b style='color: #fff;'>Halloween</b>🕸️";
+       icon.innerHTML = "<img class='tree' src='pumpkin.png'>";
+       content.innerText = "May this Halloween be full of magical suprises to you.... wishing you a great celebration full of treats....!";
+       document.getElementById("wrapper").style.backgroundColor = "#301999";  
+       document.getElementById("recieverOutput").style.color = "#fea735"; 
+       document.getElementById("senderOutput").style.color = "#fea735"; 
        document.getElementById("dateOutput").style.color = "#ffffff"; 
        document.getElementById("content").style.color = "#ffffff"; 
        document.getElementById("wrapper").style.border = "5px double #ffea50"; 
