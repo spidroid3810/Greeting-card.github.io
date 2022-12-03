@@ -113,20 +113,26 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-function bor1() {
-    document.getElementById("recieverOutput").style.color = ""; 
-    }
+const srcElement = document.querySelector("#wrapper"),
+ btns = document.querySelectorAll("button");
 
-function bor2() {
-  /* Code for Safari 5 */
+ btns.forEach(btn => { // looping through each btn
+   // adding click event to each btn
+   btn.addEventListener("click", () => {
+     // creating canvas of element using html2canvas
+     html2canvas(srcElement).then(canvas => {
+       // adding canvas/screenshot to the body
+       if(btn.id === "take-src-only") {
+         return document.body.appendChild(canvas);
        }
 
-function bor3() {
-    /* Code for Safari 5 */
-      document.getElementById("recieverOutput").style.color = ""; 
-  }
+       // downloading canvas/screenshot
+       const a = document.createElement("a");
+       a.href = canvas.toDataURL();
+       a.download = "Greeting-card";
+       a.click();
+     });
+   });
+ });
 
-function bor4() {
- /* Code for Safari 5 */
-  
-  }
+
