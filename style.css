@@ -24,7 +24,7 @@ padding: 10px;
 
 .top{
 margin: 10px;
-
+display: grid;
 }
 
 #wrapper {
@@ -36,7 +36,7 @@ margin: 10px;
  margin: 5px auto;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  border-radius: 5px;
- background: lightyellow;
+ background: #fff;
 }
 
 
@@ -44,6 +44,7 @@ margin: 10px;
 margin: 10px;
 outline: none;
 height: 35px;
+width: 80%;
 background: #eee;
 border: 2px solid lightgray;
 border-radius: 5px;
@@ -191,4 +192,15 @@ font-weight: bold;
 color:#111;
 font-size: 20px;
 font-weight: bold;
+}
+
+@media (min-width: 500px) {
+
+.top{
+
+grid-template-columns: repeat(2, 1fr);  
+
+}
+
+
 }
