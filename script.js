@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
    switch (reason.value) {
      case "Birthday":
-       message.innerHTML = "<b style='color: rgb(106, 90, 205);'>✨Happy</b> <b style='color:crimson;'>Birthday!✨</b>";
+       message.innerHTML = "<b style='color: crimson'>✨H</b><b style='color:#fea735;'>a</b><b style='color: #ffea00;'>p</b><b style='color:limegreen;'>p</b><b style='color: blue;'>y</b> <b style='color:crimson;'>B<b style='color:orangered;'>i</b><b style='color:#fea735;'>r</b><b style='color:#ffea00;'>t</b><b style='color:#00A36C;'>h</b><b style='color:limegreen;'>d</b><b style='color:blue;'>a</b><b style='color:darkviolet;'>y!✨</b>";
        icon.innerHTML = "<img class='cake' src='cake.png'>";
        content.innerHTML = "“Hope all your birthday wishes come true & have a great day filled with special moments!”";
        document.getElementById("wrapper").style.backgroundColor = "lightyellow";
@@ -33,15 +33,15 @@ document.addEventListener("DOMContentLoaded", () => {
        document.getElementById("senderOutput").style.color = "#ffea00"; 
        document.getElementById("dateOutput").style.color = "deepskyblue"; 
        document.getElementById("content").style.color = "#00A36C"; 
-       document.getElementById("wrapper").style.border = "5px dashed #fff000";
+       document.getElementById("wrapper").style.border = "5px dashed skyblue";
        
        break;
      case "Death":
-       message.innerHTML = "🌼<b style='color: limegreen;'>Sorry</b> <b style='color: #f9f9f9;'>for</b> <b style='color: limegreen;'>your</b> <b style='color: #f9f9f9;'>Loss</b>🌼";
+       message.innerHTML = "🪦<b style='color: limegreen;'>Sorry</b> <b style='color: #f9f9f9;'>for</b> <b style='color: limegreen;'>your</b> <b style='color: #f9f9f9;'>Loss</b>🪦";
        icon.innerHTML = "<img class='fune' src='wreath.png'>";
        content.innerText =
          "I see dead people. I dont have special powers, just stating the obvious.";
-       document.getElementById("wrapper").style.backgroundColor = "bisque"; 
+       document.getElementById("wrapper").style.backgroundColor = "#FFBF00"; 
        document.getElementById("recieverOutput").style.color = "#262626"; 
        document.getElementById("senderOutput").style.color = "#262626"; 
        document.getElementById("dateOutput").style.color = "#ffffff"; 
