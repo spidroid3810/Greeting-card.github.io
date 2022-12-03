@@ -25,6 +25,7 @@
  <input id="sender"></input>
  <br>
  <label>Date</label>
+ <br>
  <input type="date" id="date">
  <br>
  <label>Reason:</label>
@@ -35,10 +36,12 @@
    <option value="Christmas">Christmas</option>
  </select>
  <br>
-  <input id="submit" type="submit" />
- <input id="reset" type="reset" />
-<button class="btns">Download</button>
-<button class="btn2" id="take-src-only" >Take Screenshot</button>
+ <div class="buttons">
+  <button class="btns" id="submit" >Submit</button>
+ <button class="btns" id="reset">Reset</button>
+<button class="down btns">Download</button>
+<button class="screen btns" id="take-src-only" >Take Screenshot</button>
+</div>
 </div>
 <div id="form-print" enctype="text/plain"> 
 <div id="wrapper">
@@ -53,7 +56,7 @@
 
 <script type="text/javascript">
 
-const srcElement = document.querySelector("#wrapper"),
+const srcElement = document.querySelector("#form-print"),
  btns = document.querySelectorAll("button");
 
  btns.forEach(btn => { // looping through each btn

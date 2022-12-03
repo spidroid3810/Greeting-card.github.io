@@ -10,6 +10,8 @@ h2{
 color: #111;
 text-align: center;
 font-weight:bold;
+background: limegreen;
+padding: 10px;
 }
 
 #wrapper {
@@ -38,6 +40,7 @@ font-size: 20px;
 margin: 5px;
 outline: none;
 height: 35px;
+width: 80%;
 background: #eee;
 border: 2px solid lightgray;
 border-radius: 5px;
@@ -48,6 +51,7 @@ font-size: 20px;
 margin: 5px;
 outline: none;
 height: 35px;
+width: 80%;
 background: #eee;
 border: 2px solid lightgray;
 border-radius: 5px;
@@ -58,6 +62,8 @@ font-size: 20px;
 #reason{
 margin: 5px;
 background: #eee;
+height: 35px;
+width: 80%;
 border: 2px solid lightgray;
 border-radius: 5px;
 font-size: 20px;
@@ -71,67 +77,57 @@ color: #111;
 font-size: 20px;
 }
 
-#submit,#reset,.btns{
-display: inline;
-padding: 10px;
-width: 100px;
-margin-left: 10px;
-font-size: 18px;
+.buttons{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+padding: 10px;  
+gap: 10px;
 }
+
 
 
 #submit{
 background: rgba(243, 0, 75, 1);
-color: #fff;
-border: none;
-border-radius: 5px;
 }
 
 #reset:hover{
-color: #111;
+outline: none;
+color: #262626;
 }
 
 #submit:hover{
-color: #111;
+outline: none;
+color: #262626;
 }
 
-.btns:hover{
+.down:hover{
 outline: none;
-color: #111;
+color: #262626;
 }
 
 
-.btn2:hover{
+.screen:hover{
 outline: none;
-color: #111;
+color: #262626;
 }
 
 #reset{
 background: rgb(10, 251, 130);
-color: #fff;
-border: none;
-border-radius: 5px;
+}
+
+.down,.screen{
+background:#0096FF;
 }
 
 .btns{
-background:#0096FF;
-color: #fff;
 border: none;
-border-radius: 5px;
+padding: 10px;
+font-size: 18px;
+color: #fff;
+border-radius:5px;
+outline: none;
 }
 
-.btn2{
-background: #0096FF;
-color: #fff;
-border: none;
-border-radius: 5px;
-display: inline;
-padding: 6px;
-width: 120px;
-margin-left: 10px;
-font-size: 18px;
-margin-top: 5px;
-}
 
 #emoji {
  font-size: 40px;
@@ -182,3 +178,4 @@ color:#111;
 font-size: 20px;
 font-weight: bold;
 }
+ 
