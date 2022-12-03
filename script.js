@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
        document.getElementById("senderOutput").style.color = "#ffea00"; 
        document.getElementById("dateOutput").style.color = "deepskyblue"; 
        document.getElementById("content").style.color = "#00A36C"; 
-       document.getElementById("wrapper").style.border = "5px dashed skyblue";
+       document.getElementById("wrapper").style.border = "5px dashed #ffea00";
        
        break;
      case "Death":
