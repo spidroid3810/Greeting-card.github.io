@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
-margin: 0;
-padding: 0;
-box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
 background: #eee;
+font-family: 'Poppins',sans-serif;
 }
 
 h1{
@@ -13,10 +15,10 @@ font-size:24px;
 }
 
 h2{
-color: #111;
+color: #fff;
 text-align: center;
 font-weight:bold;
-background: limegreen;
+background: crimson;
 padding: 10px;
 }
 
@@ -27,7 +29,7 @@ margin: 10px;
 
 #wrapper {
  width: 330px;
- height: 515px;
+ height: 500px;
  text-align: center;
  font-family: 'Sofia';
  padding: 30px;
@@ -190,4 +192,3 @@ color:#111;
 font-size: 20px;
 font-weight: bold;
 }
- 
