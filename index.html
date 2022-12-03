@@ -32,7 +32,6 @@
 <button class="screen btns" id="take-src-only" >Take Screenshot</button>
 </div>
 </div>
-<div id="form-print"> 
 <div id="wrapper">
  <h1 id="message">Message</h1>
  <p id="icon">icon</p>
@@ -41,11 +40,10 @@
  <p id="content">content</p>
  <p id="senderOutput">Love, Sender</p>
 </div>
-</div>
 
 <script type="text/javascript">
 
-const srcElement = document.querySelector("#form-print"),
+const srcElement = document.querySelector("#wrapper"),
  btns = document.querySelectorAll("button");
 
  btns.forEach(btn => { // looping through each btn
