@@ -73,6 +73,29 @@ document.addEventListener("DOMContentLoaded", () => {
        document.getElementById("wrapper").style.border = "5px double #ffea50"; 
        
        break;
+       case "Eid":
+       message.innerHTML = "✨<b style='color: #fff;'>Eid Mubarak</b>✨";
+       icon.innerHTML = "<img class='tree' src='ramadan.png'>";
+       content.innerText = "May the blessings of Allah be with you and your family forever and always!";
+       document.getElementById("wrapper").style.backgroundColor = "#00A36C";  
+       document.getElementById("recieverOutput").style.color = "#ffea00"; 
+       document.getElementById("senderOutput").style.color = "#ffea00"; 
+       document.getElementById("dateOutput").style.color = "#ffffff"; 
+       document.getElementById("content").style.color = "#ffffff"; 
+       document.getElementById("wrapper").style.border = "5px double #ffea00"; 
+       break;
+       
+       case "Diwali":
+       message.innerHTML = "🪔<b style='color: #fff;'>Happy</b> <b style='color: #fff;'>Diwali</b>🪔️<b style='color:#4d3a99;'>festvials of light!</b>";
+       icon.innerHTML = "<img class='tree' src='diya.png'>";
+       content.innerText = "May this festival of joy brings more happiness in your life!";
+       document.getElementById("wrapper").style.backgroundColor = "orangered";  
+       document.getElementById("recieverOutput").style.color = "#ffea50"; 
+       document.getElementById("senderOutput").style.color = "#ffea50"; 
+       document.getElementById("dateOutput").style.color = "#ffffff"; 
+       document.getElementById("content").style.color = "#ffffff"; 
+       document.getElementById("wrapper").style.border = "5px double #ffea50"; 
+       break;
    }
  });
 });
