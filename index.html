@@ -18,16 +18,12 @@
 <body onload="autoClick();">
 <h2>Greeting Card Generator</h2>
 <div class="top">
-
  <label>Name of reciever</label>
- <input id="reciever"></input>
+  <input id="reciever"></input>
  <label>Name of sender</label>
  <input id="sender"></input>
- <br>
  <label>Date</label>
- <br>
  <input type="date" id="date">
- <br>
  <label>Reason:</label>
  <select name="reason" id="reason">
    <option value="Birthday">Birthday</option>
@@ -35,7 +31,6 @@
    <option value="Graduation">Graduation</option>
    <option value="Christmas">Christmas</option>
  </select>
- <br>
  <div class="buttons">
   <input class="btns" id="submit" type="submit"/>
  <input class="btns" id="reset" type="reset"/>
@@ -44,7 +39,7 @@
 </div>
 </div>
 <div id="form-print" > 
-<div id="wrapper" enctype="text/plain">
+<div id="wrapper">
  <h1 id="message">Message</h1>
  <p id="icon">icon</p>
  <p id="dateOutput">Date</p>
@@ -92,3 +87,4 @@ const srcElement = document.querySelector("#wrapper"),
 	</script>
 </body>
 </html>
+
