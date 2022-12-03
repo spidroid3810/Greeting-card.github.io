@@ -23,7 +23,7 @@ padding: 10px;
 }
 
 .top{
-margin: 10px;
+margin: 5px;
 display: grid;
 }
 
@@ -36,7 +36,6 @@ display: grid;
  margin: 5px auto;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  border-radius: 5px;
- background: #fff;
 }
 
 
@@ -193,6 +192,7 @@ color:#111;
 font-size: 20px;
 font-weight: bold;
 }
+
 
 @media (min-width: 500px) {
 

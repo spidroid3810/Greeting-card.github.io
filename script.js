@@ -41,12 +41,12 @@ document.addEventListener("DOMContentLoaded", () => {
        icon.innerHTML = "<img class='fune' src='wreath.png'>";
        content.innerText =
          "I see dead people. I dont have special powers, just stating the obvious.";
-       document.getElementById("wrapper").style.backgroundColor = "#FFBF00"; 
+       document.getElementById("wrapper").style.backgroundColor = "#CCCCFF"; 
        document.getElementById("recieverOutput").style.color = "#262626"; 
        document.getElementById("senderOutput").style.color = "#262626"; 
        document.getElementById("dateOutput").style.color = "#ffffff"; 
        document.getElementById("content").style.color = "#ffffff"; 
-       document.getElementById("wrapper").style.border = "5px double limegreen"; 
+       document.getElementById("wrapper").style.border = "5px double gray"; 
        
        break;
      case "Graduation":
