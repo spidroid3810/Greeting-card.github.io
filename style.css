@@ -1,3 +1,9 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
 body {
 background: #eee;
 }
@@ -14,6 +20,11 @@ background: limegreen;
 padding: 10px;
 }
 
+.top{
+margin: 10px;
+
+}
+
 #wrapper {
  width: 330px;
  height: 515px;
@@ -26,8 +37,9 @@ padding: 10px;
  background: lightyellow;
 }
 
+
 #reciever{
-margin: 5px;
+margin: 10px;
 outline: none;
 height: 35px;
 background: #eee;
@@ -37,7 +49,7 @@ font-size: 20px;
 }
 
 #date{
-margin: 5px;
+margin: 10px;
 outline: none;
 height: 35px;
 width: 80%;
@@ -48,7 +60,7 @@ font-size: 20px;
 }
 
 #sender{
-margin: 5px;
+margin: 10px;
 outline: none;
 height: 35px;
 width: 80%;
@@ -60,7 +72,7 @@ font-size: 20px;
 
 
 #reason{
-margin: 5px;
+margin-left:10px;
 background: #eee;
 height: 35px;
 width: 80%;
@@ -71,10 +83,10 @@ outline:none;
 }
 
 label{
-text-align: center;
-padding: 5px;
+text-align: left;
 color: #111;
 font-size: 20px;
+padding-left:10px;
 }
 
 .buttons{
