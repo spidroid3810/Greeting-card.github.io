@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
    document.getElementById(
      "recieverOutput"
    ).innerText = `Dear ${reciever.value},`;
-   document.getElementById("senderOutput").innerText = `Love ${sender.value},`;
+   document.getElementById("senderOutput").innerText = `From ${sender.value},`;
 
    switch (reason.value) {
      case "Birthday":
